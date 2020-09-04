@@ -1,0 +1,8 @@
+name: supervisord
+command: supervisord -n
+workdir: /okteto
+sync:
+- .:/okteto
+- www:/var/www/html
+forward:
+- 8080:80

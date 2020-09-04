@@ -1,2 +1,4 @@
 # supervisor-nginx
-Use supervisor, nginx and okteto together
+
+This is an example of how to use supervisor, nginx and [okteto](https://github.com/okteto/okteto) together.
+
